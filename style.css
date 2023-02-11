@@ -1,0 +1,24 @@
+@import "reset.css";
+
+@import "/components/status-bar.css";
+@import "/components/screen-header.css";
+@import "/components/user-componet.css";
+@import "/components/nav.css";
+@import "/components/other-cat.css";
+@import "/components/right-up.css";
+/* components */
+
+
+@import "/screens/friends.css";
+@import "/screens/cat-chat.css";
+@import "/screens/shopping.css";
+@import "/screens/more.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e272e;
+}

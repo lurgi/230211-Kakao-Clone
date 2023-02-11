@@ -1,0 +1,20 @@
+.user-component{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+    color: white;
+    padding-bottom: 27px;
+    border-bottom: 1px solid white;
+}
+.user-component__avatar{
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+    margin-right: 25px;
+    object-fit: cover;
+}
+
+.user-component__title{
+    font-size: 22px;
+    font-weight: 600;
+}

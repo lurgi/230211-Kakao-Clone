@@ -1,0 +1,13 @@
+
+.cat-chat__title{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 3px;
+    color: rgb(196, 196, 196);
+    margin-bottom: 5px;
+}
+
+.cat-chat__subtitle{
+    font-weight: 400;
+    font-size: 15px;
+}

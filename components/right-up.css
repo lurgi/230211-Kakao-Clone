@@ -1,0 +1,14 @@
+.right-up__parent{
+    position: relative;
+}
+.nav__btn i.right-up{
+    top : -35%;
+    left: 100%;
+}
+.right-up{
+    font-size: 6px;
+    color: tomato;
+    position: absolute;
+    left : 75%;
+    top: -20%;
+}

@@ -1,0 +1,13 @@
+.cute-cats{
+    height: 120vh;
+}
+
+.channel{
+    display: flex;
+    margin : 6px 30px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 15px;
+}
+

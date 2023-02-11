@@ -1,0 +1,92 @@
+.wallet{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #78e08f;
+    padding : 18px 0px
+}
+.wallet__column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 0px 40px;
+    height: 40px;
+}
+
+.wallet__column>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wallet__column>div>h1{
+    font-weight: 600;
+}
+.wallet__column>div>i{
+    padding : 0px 5px;
+}
+.wallet__column>div>i.grey{
+    color: rgb(66, 66, 66);
+    font-size: 25px;
+}
+
+.wallet__column:nth-child(2){
+    padding: 0px 30px;
+}
+.wallet__box{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.wallet__column:last-child>div{
+    color: rgb(35, 35, 35);
+}
+.wallet__column:last-child>div>div{
+    border-right: 1.5px solid gray;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 30px;
+    color: rgb(226, 226, 226);
+}
+.icons__column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+    padding-bottom: 25px;
+}
+.icons__column>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding : 0px 10px;
+    font-weight:600
+}
+.icons__column>div>i{
+    font-size: 37px;
+    padding-bottom: 3px;
+}
+
+.icons__column>div>i.right-up{
+    font-size: 6px;
+    color: tomato;
+    position: absolute;
+    left : 75%;
+    top: 0;
+}
+
