@@ -13,6 +13,7 @@
 @import "/screens/cat-chat.css";
 @import "/screens/shopping.css";
 @import "/screens/more.css";
+@import "/screens/chat-room.css";
 
 *{
     margin: 0;

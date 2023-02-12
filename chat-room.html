@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat room</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!-- status bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>LG U+</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:05</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <!--screen header-->
+    <header class="screen-header chat__room">
+        <div class="screen-header__chat-room">
+            <a href="chats.html"><i class="fas fa-chevron-left fa-lg"></i></a>
+        </div>
+        <div><h2 class="screen-header__title chat-room">Scottish Fold</h2></div>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-archive fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+
+    <!--calendar-->
+    <div class="calendar">
+        <i class="fas fa-calendar-alt"></i>Saturday, February 11, 2023</div>
+    </div>
+
+
+    <!--character chats-->
+    <div class="character-chats">
+        <div class="character-chats__column">
+            <img class="character-chats__avatar" src="images/다운로드 (1).jfif"/>
+            <div>
+                <div class="character-chats__title">Meow Dongsuk</div>
+                <div class="character-chats__detail">
+                    <div class="character-chats__box">Hey</div>
+                    <div class="character-chats__time">7:20 AM</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="character-chats__column right">
+            <div>
+                <div class="character-chats__title right">Scottish Fold</div>
+                <div class="character-chats__detail right">
+                    <div class="character-chats__time right">12:00 PM</div>
+                    <div class="character-chats__box right">meow whatup</div>
+                </div>
+            </div>
+            <img class="character-chats__avatar right" src="images/다운로드.jfif"/>
+        </div>
+
+        <div class="character-chats__column">
+            <img class="character-chats__avatar" src="images/다운로드 (1).jfif"/>
+            <div>
+                <div class="character-chats__title">Meow Dongsuk</div>
+                <div class="character-chats__detail">
+                    <div class="character-chats__box">what up</div>
+                    <div class="character-chats__time">18:03 PM</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="character-chats__column">
+            <img class="character-chats__avatar" src="images/다운로드 (1).jfif"/>
+            <div>
+                <div class="character-chats__title">Meow Dongsuk</div>
+                <div class="character-chats__detail">
+                    <div class="character-chats__box">what your SBD meow?</div>
+                    <div class="character-chats__time">18:04 PM</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--reply-->
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write your message...">
+            <i class="far fa-smile-wink"></i>
+            <button><i class="fas fa-arrow-up"></i></button>
+        </div>
+    </form>
+
+
+    <script
+        crossorigin="anonymous"
+        src="https://kit.fontawesome.com/6478f529f2.js"
+    ></script>
+</body>
+</html>
