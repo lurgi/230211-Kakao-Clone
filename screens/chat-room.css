@@ -23,11 +23,14 @@
     display: flex;
     justify-content: center;
     color: white;
-    background-color: rgba(0,0,0,0.1);
-    padding : 10px;
-    margin: 10px 120px;
-    border-radius: 30px;
+    margin: 10px;
     margin-bottom: 20px;
+}
+.calendar__column{
+    display: inline-block;
+    background-color: rgba(0,0,0,0.1);
+    padding : 10px 20px;
+    border-radius: 30px;
 }
 .calendar i{
     margin-right: 8px;
@@ -92,6 +95,21 @@
     margin-left: 10px;
 }
 
+@keyframes fadeIn{
+    from{
+        opacity: 0.5;
+        transform: translateY(10px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.character-chats__column, .calendar{
+    animation: fadeIn 0.5s ease-in-out;
+}
+
 .reply{
     position: fixed;
     bottom: 0;
@@ -120,6 +138,7 @@
     padding-left: 10px;
 }
 
+
 .reply__column:last-child button{
     position: absolute;
     right: 2.5px;
@@ -136,4 +155,28 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
+}
+.reply__column:nth-child(2) input:focus{
+    outline: none;
+}
+.reply:focus-within .reply__column>i,
+.reply:focus-within .reply__column>button{
+    opacity: 0;
+}
+.reply:focus-within .reply__column>input{
+    width: 87vw;
+    transform: translateX(-8.5%) translateY(-85px) scale(1.1);
+}
+.reply:focus-within{
+    transform: translateY(80px);
+}
+.reply__column>i,
+.reply__column>button{
+    transition: opacity 0.1s linear;
+}
+.reply__column>input{
+    transition: transform 0.2s ease;
+}
+.reply {
+    transition: transform 0.3s ease;
 }

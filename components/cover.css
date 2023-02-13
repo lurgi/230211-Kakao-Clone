@@ -1,0 +1,19 @@
+.cover{
+    display: flex;
+    z-index: 99;
+    background-color:#78e08f ;
+    width: 100vw;
+    height:  100vh;
+    position: absolute;
+    top:0;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:550px) {
+    .cover{
+        display: none;
+    }
+}
