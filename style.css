@@ -1,20 +1,20 @@
 @import "reset.css";
 
-@import "/components/status-bar.css";
-@import "/components/screen-header.css";
-@import "/components/user-componet.css";
-@import "/components/nav.css";
-@import "/components/other-cat.css";
-@import "/components/right-up.css";
-@import "/components/cover.css";
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-componet.css";
+@import "components/nav.css";
+@import "components/other-cat.css";
+@import "components/right-up.css";
+@import "components/cover.css";
 /* components */
 
 
-@import "/screens/friends.css";
-@import "/screens/cat-chat.css";
-@import "/screens/shopping.css";
-@import "/screens/more.css";
-@import "/screens/chat-room.css";
+@import "screens/friends.css";
+@import "screens/cat-chat.css";
+@import "screens/shopping.css";
+@import "screens/more.css";
+@import "screens/chat-room.css";
 
 *{
     margin: 0;
